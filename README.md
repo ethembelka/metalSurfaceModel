@@ -1,1 +1,3 @@
+# Metal Kusur Tespiti Projesinn Python Kısmı
+## Projenin işlevselliği
 Metal hata  tespit projensinin pythonda yazılmış model kısmıdır. Proje flask api olarak tasarlanmıştır. Projeyi ayağa kaldırdıktan sonra angular tarafından /detection/start enpointine istek atılır ve proje kamerayı çalıştırır. test_img isimli bir dosyayı modele vererek test eder. /detection/take_photo endpointi tetiklendiğinde hazır olan kameradan fotoğraf çekilir ve çekilen fotoğraf modele verilir sonuçlar ise spring apisine verilerin kaydedilmesi ve web arayüzünde gösterilmesi amacı ile post isteği ile gönderilir. Take photo kısmı ilerde metal sensör aracılığı ile tetiklenecektir. Model ise geliştirilecektir.
